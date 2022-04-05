@@ -143,9 +143,10 @@ body {
 
 .footer a {
   text-decoration: none;
-  color: #323c49;
-  font-size: 14px;
+  color: #3c4858 !important;
+  font-size: 11px;
   margin: 0 1rem;
+  letter-spacing: .02em;
 }
 
 .footer i {
@@ -156,6 +157,6 @@ body {
 
 .footer p {
   color: #3c4858;
-  font-size: 14px;
+  font-size: 11px;
 }
 /*# sourceMappingURL=main.css.map */
