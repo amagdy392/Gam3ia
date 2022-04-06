@@ -99,6 +99,18 @@ body {
 }
 
 @media (max-width: 576px) {
+  .head-home {
+    text-align: center;
+  }
+  .head-home h1 {
+    font-size: 50px;
+  }
+  .head-home p {
+    display: none;
+  }
+  .head-home .btn-primary {
+    margin-bottom: 4rem;
+  }
   .head-home img {
     max-height: 300px;
   }

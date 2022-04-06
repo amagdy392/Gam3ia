@@ -75,6 +75,16 @@ body {
 
 @media (max-width : 576px){
     .head-home {
+        text-align: center;
+        & h1 {
+            font-size: 50px ;
+        }
+        & p {
+            display: none ;
+        }
+        & .btn-primary {
+            margin-bottom: 4rem ;
+        }
         & img {
             max-height :300px;
         }
