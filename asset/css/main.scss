@@ -133,6 +133,24 @@ body {
     }
 }
 
+@media (max-width :580px){
+    .app-section {
+        & h1 {
+            margin-bottom: 2rem ;
+            font-size: 3rem;
+        }
+        & .btn-app {
+            margin : 0.5rem auto ;
+            width : 250px;
+            display: block;
+            font-size: 2rem;
+        }
+        & i {
+            font-size: 2rem;
+        }
+    }
+}
+
 .questions {
     margin : 10rem 0 ;
     & .accordion-header .accordion-button {
