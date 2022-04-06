@@ -98,6 +98,12 @@ body {
   -o-border-radius: 15px;
 }
 
+@media (max-width: 576px) {
+  .head-home img {
+    max-height: 300px;
+  }
+}
+
 .benafit-section {
   margin: 5rem 0;
 }
@@ -130,6 +136,12 @@ body {
   font-weight: 500;
 }
 
+@media (max-width: 576px) {
+  .third-section .custmize {
+    max-width: 200px;
+  }
+}
+
 .app-section .btn-app {
   background-color: #252940;
   color: #fff;
@@ -152,7 +164,7 @@ body {
 }
 
 .questions .accordion-header .accordion-button {
-  color: #3c4858 !important;
+  color: #3c4858;
 }
 
 .questions .accordion-header .accordion-button:focus {
@@ -161,9 +173,10 @@ body {
           box-shadow: none;
 }
 
-.questions .accordion-button::after {
+.questions .accordion-header .accordion-button::after {
   margin-left: 0;
   margin-right: auto;
+  color: var(--main-color) !important;
 }
 
 .footer {
