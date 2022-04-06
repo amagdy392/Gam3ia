@@ -1,6 +1,10 @@
 :root {
     --main-color : #566CE6 ;
 }
+::selection {
+    background-color : var(--main-color);
+    color : #fff ;
+}
 .margin-100 {
     margin : 20rem 5rem ;
 }
@@ -110,6 +114,21 @@ body {
     & i {
         font-size: 20px;
         color : var(--main-color);
+    }
+}
+
+.questions {
+    margin : 10rem 0 ;
+    & .accordion-header .accordion-button{
+        color : #3c4858!important;
+        &:focus {
+            border-color : transparent !important;
+            box-shadow: none ;
+        }
+    }
+    & .accordion-button::after {
+        margin-left : 0;
+        margin-right : auto ;
     }
 }
 

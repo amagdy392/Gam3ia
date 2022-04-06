@@ -2,6 +2,16 @@
   --main-color: #566CE6 ;
 }
 
+::-moz-selection {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+::selection {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
 .margin-100 {
   margin: 20rem 5rem;
 }
@@ -135,6 +145,25 @@ body {
 .app-section i {
   font-size: 20px;
   color: var(--main-color);
+}
+
+.questions {
+  margin: 10rem 0;
+}
+
+.questions .accordion-header .accordion-button {
+  color: #3c4858 !important;
+}
+
+.questions .accordion-header .accordion-button:focus {
+  border-color: transparent !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.questions .accordion-button::after {
+  margin-left: 0;
+  margin-right: auto;
 }
 
 .footer {
