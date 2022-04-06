@@ -181,6 +181,7 @@ body {
 
 .questions .accordion-header .accordion-button {
   color: #3c4858;
+  text-align: right;
 }
 
 .questions .accordion-header .accordion-button:focus {
